@@ -1,8 +1,10 @@
-site_name: DTM ID
+site_name: Developer Training Materials ID
 nav:
   - Home: index.md
-  - "Frontend Developer":
+  - Programming:
     - JavaScript: index.md
+    - TypeScript: index.md
+  - "Frontend Framework":
     - Angular:
       - Component: 
         - "Mengenal Component": doc_angular/components/intro-component.md
@@ -10,5 +12,19 @@ nav:
         - "Properti Penting Metadata": doc_angular/components/properti-penting-metadata.md
       - "Data Binding":
         - "Mengenal Data Binding": doc_angular/data-binding/intro.md
+        - "Interpolasi": doc_angular/data-binding/interpolasi.md
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+repo_url: https://github.com/yanwarrior/dev-training-materials-id
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

@@ -2,7 +2,7 @@
 
 Data binding adalah teknik di mana data tetap sinkron antara component dan view. Setiap kali pengguna memperbarui data di view, Angular akan memperbarui component. Saat component mendapatkan data baru, Angular juga akan memperbarui view-nya.
 
-Data binding di Angular secara garis besar dapat diklasifikasikan menjadi dua kelompok. One way data binding atau two way data binding.
+Data binding di Angular secara garis besar dapat diklasifikasikan menjadi dua kelompok. One way data binding dan two way data binding.
 
 ## One Way Data Binding
 
