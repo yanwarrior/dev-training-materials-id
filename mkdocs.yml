@@ -1,0 +1,12 @@
+site_name: Indonesian Developer Training Material
+nav:
+  - Home: components/intro-component.md
+  - "Frontend Developer":
+    - JavaScript: index.md
+    - Angular:
+      - Component: 
+        - "Mengenal Component": doc_angular/components/intro-component.md
+        - "Blok Component": doc_angular/components/blok-pembangun-component.md
+        - "Properti Penting Metadata": doc_angular/components/properti-penting-metadata.md
+theme:
+  name: readthedocs
