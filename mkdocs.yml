@@ -1,6 +1,6 @@
-site_name: Indonesian Developer Training Material
+site_name: DTM ID
 nav:
-  - Home: components/intro-component.md
+  - Home: index.md
   - "Frontend Developer":
     - JavaScript: index.md
     - Angular:
@@ -8,5 +8,7 @@ nav:
         - "Mengenal Component": doc_angular/components/intro-component.md
         - "Blok Component": doc_angular/components/blok-pembangun-component.md
         - "Properti Penting Metadata": doc_angular/components/properti-penting-metadata.md
+      - "Data Binding":
+        - "Mengenal Data Binding": doc_angular/data-binding/intro.md
 theme:
-  name: readthedocs
+  name: material
